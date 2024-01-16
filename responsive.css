@@ -2,8 +2,22 @@
 
 @media screen and (max-width: 576px) {
     .our-tour-container,
-    .news-letter-container {
+    .news-letter-container,
+    .deals-box-container {
         flex-direction: column;
+    }
+    .deals-box {
+        width: 80%;
+    }
+    .deals-content-box{
+        width: 80%;
+        margin-top: 150px;
+    }
+    .deals-descrip {
+        font-size: 12px;
+    }
+    .deals-title p {
+        width: 100%;
     }
     .travel-container {
         flex-direction: column-reverse;
