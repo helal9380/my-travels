@@ -1,0 +1,127 @@
+
+/* shared style here */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    color: #131318;
+}
+.main-container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* header section style here */
+header {
+    
+    height: 75px;
+    padding-top: 16px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #020202;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.logo h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-color {
+    color: #FF5400;
+}
+
+.humbarger-icon {
+    display: none;
+}
+
+.banner-container {
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+
+.banner-content {
+    color: #fff;
+    text-align: center;
+}
+.banner-content h2 {
+    font-size: 62px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    width: 600px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.simple-form-box {
+    padding: 14px 14px 14px 0px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+}
+.simple-form-box input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+}
+.simple-form-box input {
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 16px;
+}
+
+i.fa.fa-chevron-down {
+    margin-left: -25px;
+    z-index: 11;
+    color: black;
+}
+
+input.btn {
+    margin-left: 0px;
+    font-weight: 700;
+    background-color: #FF5400;
+    color: #fff;
+    width: 140px;
+}
+
+i.fa.fa-search {
+    position: relative;
+    top: 2px;
+    left: 34px;
+}
+
