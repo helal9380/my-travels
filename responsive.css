@@ -1,7 +1,8 @@
 /* header style */
 
 @media screen and (max-width: 576px) {
-    .our-tour-container {
+    .our-tour-container,
+    .news-letter-container {
         flex-direction: column;
     }
     
@@ -88,6 +89,42 @@
     }
     .choose-destination-places-container img {
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
+    /* why choose me section */
+    .why-choose-title p {
+        width: 70%;
+        margin: auto;
+        font-size: 14px;
+    }
+    .why-choose-box p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px
+    }
+    .common-style1 {
+        grid-column: 1/12;
+    }
+    .common-style2 {
+        grid-column: 1/12;
+    }
+    .common-style3 {
+        grid-column: 1/12;
+    }
+    /* New letter section */
+     .form-box {
+        padding: 8px;
+        width: 100%;
+     }
+     .up-to-image-box {
+        margin-top: 0px;
+        width: 100%;
+     }
+    
+     .up-to-box {
+        font-size: 14px;
+        bottom: 83px;
+        left: 236px;
+     }
 }
