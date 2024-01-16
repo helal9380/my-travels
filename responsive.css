@@ -5,7 +5,9 @@
     .news-letter-container {
         flex-direction: column;
     }
-    
+    .travel-container {
+        flex-direction: column-reverse;
+    }
     .humbarger-icon {
         display: block;
     }
@@ -143,6 +145,12 @@
      }
      .footer-title h2 {
         font-size: 40px;
+     }
+     .travel-title p {
+        width: 100%;
+     }
+     .travel-img img {
+        width: 100%;
      }
 
 }

@@ -395,3 +395,74 @@ span.cap-img {
     margin: auto;
     background: rgba(19, 19, 24, 0.10);
 }
+
+/* travel the world section */
+.travel-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.travel-title h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.travel-title p {
+    width: 52%;
+    margin: auto;
+}
+
+.travel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.travel-img img {
+    border-radius: 16px;
+}
+
+.travel-content {
+    border-radius: 8px;
+    padding: 30px 32px;
+    background-color: #f4f4f4cc;
+}
+
+.travel-content h4 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.travel-content p {
+    margin-bottom: 32px;
+}
+.email {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.email i {
+    color: #FF5400;
+}
+
+.phone i {
+    color: #FF5400;
+}
+
+.travel-btn {
+    font-size: 16px;
+    margin-top: 30px;
+}
