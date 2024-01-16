@@ -62,6 +62,13 @@
     .choose-destination-places-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .choose-destination-title h2 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .choose-destination-title {
+        width: 100%;
+    }
     span.cap-img {
         left: 42%;
     }
@@ -127,4 +134,15 @@
         bottom: 83px;
         left: 236px;
      }
+
+     .hori-line {
+        width: 100%;
+     }
+     .footer-container p {
+        font-size: 14px;
+     }
+     .footer-title h2 {
+        font-size: 40px;
+     }
+
 }
