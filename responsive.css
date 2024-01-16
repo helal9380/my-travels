@@ -14,6 +14,12 @@
     nav {
         display: none;
     }
+    .logo h1 {
+        font-size: 2rem;
+    }
+    .simple-form-box {
+        padding: 14px;
+    }
     .banner-content h2 {
         font-size: 45px;
     }
@@ -44,12 +50,12 @@
     }
     
     i.fa.fa-chevron-down {
-        top: -44px;
-        left: 150px;
+        top: -45px;
+        left: 145px;
     }
     i.fa.fa-search {
-        top: 30px;
-        left: -56px;
+        top: 32px;
+        left: -60px;
     }
     /* tour section */
     .our-tour-content,
@@ -57,7 +63,7 @@
         width: 100%;
     }
     .our-tour-content h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     /* choose destination style */
@@ -102,9 +108,12 @@
     }
     /* why choose me section */
     .why-choose-title p {
-        width: 70%;
+        width: 100%;
         margin: auto;
         font-size: 14px;
+    }
+    .why-choose-title h2 {
+        font-size: 1.5rem;
     }
     .why-choose-box p {
         font-size: 14px;
@@ -147,6 +156,7 @@
         font-size: 40px;
      }
      .travel-title p {
+        font-size: 14px;
         width: 100%;
      }
      .travel-img img {

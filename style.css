@@ -16,8 +16,7 @@ body {
 
 /* header section style here */
 header {
-    
-    height: 75px;
+    height: 40px;
     padding-top: 16px;
 }
 .header-container {
@@ -41,6 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: 22px;
     text-decoration: none;
     color: #020202;
     font-weight: 700;
@@ -53,7 +53,7 @@ nav ul li a {
     gap: 0px;
 }
 .logo h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 800;
 }
 .logo-color {
@@ -99,7 +99,7 @@ i.fa.fa-bars {
 }
 
 .simple-form-box {
-    padding: 14px 14px 14px 14px;
+    padding-left: 14px;
     background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
 }
@@ -245,7 +245,9 @@ span.cap-img {
 .img-7 {
     grid-column: 6 / 12;
 }
-
+.form-box input::placeholder {
+    padding-left: 8px;
+}
 /* why choose section here */
 
 .why-choose-title {
@@ -256,7 +258,10 @@ span.cap-img {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
-
+.why-choose-title p {
+    width: 45%;
+    margin: auto;
+}
 .why-choose-container {
     margin-top: 40px;
     display: grid;
@@ -312,7 +317,7 @@ span.cap-img {
 
 .form-box input {
     width: 100%;
-    height: 60px;
+    height: 54px;
     margin-top: 16px;
     border: none;
     background-color: #f1f1f1;
@@ -397,6 +402,11 @@ span.cap-img {
 }
 
 /* travel the world section */
+.travel-the-world {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff1f1;
+}
 .travel-title {
     text-align: center;
     margin-bottom: 24px;
